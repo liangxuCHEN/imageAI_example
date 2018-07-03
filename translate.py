@@ -40,8 +40,8 @@ vie 越南语
 class baiduTranslate(object):
 
     def __init__(self, from_lang, to_lang):
-        self.appid = '20180525000166583'
-        self.secretKey = 'SpUdlOEnPIGU4cOrZALj'
+        self.appid = ''
+        self.secretKey = ''
         self.host = 'http://api.fanyi.baidu.com/api/trans/vip/translate?appid={appid}&q={query}&from={from_lang}&to={to_lang}&salt={salt}&sign={sign}'
         self.from_lang = from_lang
         self.to_lang = to_lang
